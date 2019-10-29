@@ -9,6 +9,16 @@ Vue.config.productionTip = false
 
 Vue.use(Element, { size: 'small', zIndex: 3000 })
 
+var EventBus = new Vue()
+
+Object.defineProperties(Vue.prototype, {
+  $bus: {
+    get: function () {
+      return EventBus
+    }
+  }
+})
+
 new Vue({
   router,
   store,

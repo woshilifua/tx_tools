@@ -21,6 +21,7 @@ export default {
     }
   },
   beforeMount() {
+    console.log(this)
     this.loadMap()
   },
   methods: {
@@ -53,7 +54,13 @@ export default {
 .mt-10 {
   margin-top: 10px !important;
 }
+.mt-20 {
+  margin-top: 20px !important;
+}
 .fl {
   float: left;
+}
+.clear {
+  clear: both;
 }
 </style>
