@@ -9,7 +9,7 @@
   </div>
 </template>
 <script>
-import Header from '@/components/Header'
+import Header from '@/layout/Header'
 import remoteLoad from '@/utils/remoteLoad'
 export default {
   components: {
