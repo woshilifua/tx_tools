@@ -22,7 +22,11 @@
         <template slot="title"
           >区域分布图</template
         >
-        <el-menu-item index="nation-distribution">全国分布图</el-menu-item>
+        <el-menu-item index="nation-distribution">
+          <router-link tag="li" to="/distribution-map/nation"
+            >全国分布图</router-link
+          >
+        </el-menu-item>
         <el-menu-item index="province-distribution">省市分布图</el-menu-item>
       </el-submenu>
     </el-menu>

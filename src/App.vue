@@ -21,7 +21,6 @@ export default {
     }
   },
   beforeMount() {
-    console.log(this)
     this.loadMap()
   },
   methods: {
@@ -50,6 +49,9 @@ export default {
 }
 .el-main {
   padding: 0 !important;
+}
+.el-radio__label {
+  font-size: 12px !important;
 }
 .mt-10 {
   margin-top: 10px !important;

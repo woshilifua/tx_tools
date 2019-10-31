@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <GDMap />
+    <HeatMap />
     <MapOption />
     <MapTheme />
   </div>
@@ -9,11 +9,11 @@
 <script>
 import MapTheme from '@/components/tools/map-theme'
 import MapOption from '@/components/tools/map-option'
-import GDMap from '@/components/gaode-map'
+import HeatMap from '@/components/map/heat'
 
 export default {
   components: {
-    GDMap,
+    HeatMap,
     MapTheme,
     MapOption
   }

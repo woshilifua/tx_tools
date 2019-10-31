@@ -67,6 +67,7 @@ export default {
       let data = this.formatData(heatMapData)
       this.heatMap.setDataSet({
         data: data,
+        // max: Number 权重的最大值,
         max: 100
       })
     },
